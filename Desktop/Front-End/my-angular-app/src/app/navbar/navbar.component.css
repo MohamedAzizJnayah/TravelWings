@@ -1,0 +1,25 @@
+.navbar {
+  background-color: var(--primary-color);
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.navbar-links a {
+  margin-left: 1.5rem;
+  color: white;
+  text-decoration: none;
+  font-size: 1.1rem;
+}
+
+.navbar-links a:hover {
+  color: var(--secondary-color);
+  transition: color 0.3s ease;
+}

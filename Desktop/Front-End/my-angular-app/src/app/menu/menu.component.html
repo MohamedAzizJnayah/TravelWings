@@ -1,0 +1,10 @@
+<section id="menu" class="menu-section">
+  <h2>Nos Menus</h2>
+  <div class="menu-cards">
+    <div class="menu-card" *ngFor="let menu of menus">
+      <img [src]="menu.image" [alt]="menu.name" />
+      <h3>{{ menu.name }}</h3>
+      <p>{{ menu.description }}</p>
+    </div>
+  </div>
+</section>
